@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D325564587200C7AE30427 /* Pods_LandmarksRecAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A28880EA1AFC54D928ED27B /* Pods_LandmarksRecAppTests.framework */; };
+		8926F159227A762400764E9B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926F158227A762400764E9B /* MapViewController.swift */; };
+		8926F15B227A800F00764E9B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926F15A227A800F00764E9B /* Landmark.swift */; };
+		8926F15F227A940F00764E9B /* LandmarkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926F15E227A940F00764E9B /* LandmarkViews.swift */; };
+		8926F163227AB66D00764E9B /* Landmarks.json in Resources */ = {isa = PBXBuildFile; fileRef = 8926F162227AB66D00764E9B /* Landmarks.json */; };
+		8926F167227ED7D300764E9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926F166227ED7D300764E9B /* HomeViewController.swift */; };
+		8978C58B2275ADDA00A43C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978C58A2275ADDA00A43C4B /* AppDelegate.swift */; };
+		8978C58D2275ADDA00A43C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978C58C2275ADDA00A43C4B /* ViewController.swift */; };
+		8978C5902275ADDA00A43C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8978C58E2275ADDA00A43C4B /* Main.storyboard */; };
+		8978C5922275ADDC00A43C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8978C5912275ADDC00A43C4B /* Assets.xcassets */; };
+		8978C5952275ADDC00A43C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8978C5932275ADDC00A43C4B /* LaunchScreen.storyboard */; };
+		8978C5A02275ADDC00A43C4B /* LandmarksRecAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978C59F2275ADDC00A43C4B /* LandmarksRecAppTests.swift */; };
+		8978C5AB2275ADDC00A43C4B /* LandmarksRecAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978C5AA2275ADDC00A43C4B /* LandmarksRecAppUITests.swift */; };
+		8A214A0F00BF36ABCF9B1BDF /* Pods_LandmarksRecApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0737F28B9A99A4D948B469 /* Pods_LandmarksRecApp.framework */; };
+		CE1DA6035BCBFDBE56AFC9D9 /* Pods_LandmarksRecAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E497816E5535B66FE8E61F0 /* Pods_LandmarksRecAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8978C59C2275ADDC00A43C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8978C57F2275ADDA00A43C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8978C5862275ADDA00A43C4B;
+			remoteInfo = LandmarksRecApp;
+		};
+		8978C5A72275ADDC00A43C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8978C57F2275ADDA00A43C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8978C5862275ADDA00A43C4B;
+			remoteInfo = LandmarksRecApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A28880EA1AFC54D928ED27B /* Pods_LandmarksRecAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandmarksRecAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0737F28B9A99A4D948B469 /* Pods_LandmarksRecApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandmarksRecApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C041D335BA0F014622A7CE0 /* Pods-LandmarksRecAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LandmarksRecAppUITests/Pods-LandmarksRecAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E497816E5535B66FE8E61F0 /* Pods_LandmarksRecAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandmarksRecAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8926F158227A762400764E9B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8926F15A227A800F00764E9B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		8926F15E227A940F00764E9B /* LandmarkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkViews.swift; sourceTree = "<group>"; };
+		8926F162227AB66D00764E9B /* Landmarks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Landmarks.json; path = LandmarksRecApp/Landmarks.json; sourceTree = "<group>"; };
+		8926F166227ED7D300764E9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8978C5872275ADDA00A43C4B /* LandmarksRecApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarksRecApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978C58A2275ADDA00A43C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8978C58C2275ADDA00A43C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8978C58F2275ADDA00A43C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8978C5912275ADDC00A43C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8978C5942275ADDC00A43C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8978C5962275ADDC00A43C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978C59B2275ADDC00A43C4B /* LandmarksRecAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksRecAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978C59F2275ADDC00A43C4B /* LandmarksRecAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksRecAppTests.swift; sourceTree = "<group>"; };
+		8978C5A12275ADDC00A43C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978C5A62275ADDC00A43C4B /* LandmarksRecAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksRecAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978C5AA2275ADDC00A43C4B /* LandmarksRecAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksRecAppUITests.swift; sourceTree = "<group>"; };
+		8978C5AC2275ADDC00A43C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEA25CC1198F79245677EFA /* Pods-LandmarksRecAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecAppTests.release.xcconfig"; path = "Target Support Files/Pods-LandmarksRecAppTests/Pods-LandmarksRecAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC9D6C2AC8BE48F97CFFCB13 /* Pods-LandmarksRecApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecApp.debug.xcconfig"; path = "Target Support Files/Pods-LandmarksRecApp/Pods-LandmarksRecApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6CF24A17BDA6855074607B /* Pods-LandmarksRecApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecApp.release.xcconfig"; path = "Target Support Files/Pods-LandmarksRecApp/Pods-LandmarksRecApp.release.xcconfig"; sourceTree = "<group>"; };
+		F9CFB1F717C194ACD7AD264A /* Pods-LandmarksRecAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LandmarksRecAppUITests/Pods-LandmarksRecAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC7FED71D155F68D4E20143 /* Pods-LandmarksRecAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandmarksRecAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LandmarksRecAppTests/Pods-LandmarksRecAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8978C5842275ADDA00A43C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A214A0F00BF36ABCF9B1BDF /* Pods_LandmarksRecApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5982275ADDC00A43C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D325564587200C7AE30427 /* Pods_LandmarksRecAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5A32275ADDC00A43C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1DA6035BCBFDBE56AFC9D9 /* Pods_LandmarksRecAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B09079F0DA828204AA00C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC9D6C2AC8BE48F97CFFCB13 /* Pods-LandmarksRecApp.debug.xcconfig */,
+				ED6CF24A17BDA6855074607B /* Pods-LandmarksRecApp.release.xcconfig */,
+				FAC7FED71D155F68D4E20143 /* Pods-LandmarksRecAppTests.debug.xcconfig */,
+				CEEA25CC1198F79245677EFA /* Pods-LandmarksRecAppTests.release.xcconfig */,
+				3C041D335BA0F014622A7CE0 /* Pods-LandmarksRecAppUITests.debug.xcconfig */,
+				F9CFB1F717C194ACD7AD264A /* Pods-LandmarksRecAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5565A803651B907E9366CDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0737F28B9A99A4D948B469 /* Pods_LandmarksRecApp.framework */,
+				1A28880EA1AFC54D928ED27B /* Pods_LandmarksRecAppTests.framework */,
+				4E497816E5535B66FE8E61F0 /* Pods_LandmarksRecAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8978C57E2275ADDA00A43C4B = {
+			isa = PBXGroup;
+			children = (
+				8926F162227AB66D00764E9B /* Landmarks.json */,
+				8978C5892275ADDA00A43C4B /* LandmarksRecApp */,
+				8978C59E2275ADDC00A43C4B /* LandmarksRecAppTests */,
+				8978C5A92275ADDC00A43C4B /* LandmarksRecAppUITests */,
+				8978C5882275ADDA00A43C4B /* Products */,
+				25B09079F0DA828204AA00C7 /* Pods */,
+				5565A803651B907E9366CDCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8978C5882275ADDA00A43C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8978C5872275ADDA00A43C4B /* LandmarksRecApp.app */,
+				8978C59B2275ADDC00A43C4B /* LandmarksRecAppTests.xctest */,
+				8978C5A62275ADDC00A43C4B /* LandmarksRecAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8978C5892275ADDA00A43C4B /* LandmarksRecApp */ = {
+			isa = PBXGroup;
+			children = (
+				8978C58A2275ADDA00A43C4B /* AppDelegate.swift */,
+				8978C58C2275ADDA00A43C4B /* ViewController.swift */,
+				8926F158227A762400764E9B /* MapViewController.swift */,
+				8926F15E227A940F00764E9B /* LandmarkViews.swift */,
+				8978C58E2275ADDA00A43C4B /* Main.storyboard */,
+				8926F166227ED7D300764E9B /* HomeViewController.swift */,
+				8926F15A227A800F00764E9B /* Landmark.swift */,
+				8978C5912275ADDC00A43C4B /* Assets.xcassets */,
+				8978C5932275ADDC00A43C4B /* LaunchScreen.storyboard */,
+				8978C5962275ADDC00A43C4B /* Info.plist */,
+			);
+			path = LandmarksRecApp;
+			sourceTree = "<group>";
+		};
+		8978C59E2275ADDC00A43C4B /* LandmarksRecAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8978C59F2275ADDC00A43C4B /* LandmarksRecAppTests.swift */,
+				8978C5A12275ADDC00A43C4B /* Info.plist */,
+			);
+			path = LandmarksRecAppTests;
+			sourceTree = "<group>";
+		};
+		8978C5A92275ADDC00A43C4B /* LandmarksRecAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8978C5AA2275ADDC00A43C4B /* LandmarksRecAppUITests.swift */,
+				8978C5AC2275ADDC00A43C4B /* Info.plist */,
+			);
+			path = LandmarksRecAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8978C5862275ADDA00A43C4B /* LandmarksRecApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978C5AF2275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecApp" */;
+			buildPhases = (
+				25EECC4675CC73D68B7F571A /* [CP] Check Pods Manifest.lock */,
+				8978C5832275ADDA00A43C4B /* Sources */,
+				8978C5842275ADDA00A43C4B /* Frameworks */,
+				8978C5852275ADDA00A43C4B /* Resources */,
+				28DF0ED015924131EBD457A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LandmarksRecApp;
+			productName = LandmarksRecApp;
+			productReference = 8978C5872275ADDA00A43C4B /* LandmarksRecApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8978C59A2275ADDC00A43C4B /* LandmarksRecAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978C5B22275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecAppTests" */;
+			buildPhases = (
+				72BAD92291E9A678CA8AFAA2 /* [CP] Check Pods Manifest.lock */,
+				8978C5972275ADDC00A43C4B /* Sources */,
+				8978C5982275ADDC00A43C4B /* Frameworks */,
+				8978C5992275ADDC00A43C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8978C59D2275ADDC00A43C4B /* PBXTargetDependency */,
+			);
+			name = LandmarksRecAppTests;
+			productName = LandmarksRecAppTests;
+			productReference = 8978C59B2275ADDC00A43C4B /* LandmarksRecAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8978C5A52275ADDC00A43C4B /* LandmarksRecAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978C5B52275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecAppUITests" */;
+			buildPhases = (
+				EF867AEC4E55B0036F9AED1B /* [CP] Check Pods Manifest.lock */,
+				8978C5A22275ADDC00A43C4B /* Sources */,
+				8978C5A32275ADDC00A43C4B /* Frameworks */,
+				8978C5A42275ADDC00A43C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8978C5A82275ADDC00A43C4B /* PBXTargetDependency */,
+			);
+			name = LandmarksRecAppUITests;
+			productName = LandmarksRecAppUITests;
+			productReference = 8978C5A62275ADDC00A43C4B /* LandmarksRecAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8978C57F2275ADDA00A43C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "张芷沁";
+				TargetAttributes = {
+					8978C5862275ADDA00A43C4B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					8978C59A2275ADDC00A43C4B = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8978C5862275ADDA00A43C4B;
+					};
+					8978C5A52275ADDC00A43C4B = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 8978C5862275ADDA00A43C4B;
+					};
+				};
+			};
+			buildConfigurationList = 8978C5822275ADDA00A43C4B /* Build configuration list for PBXProject "LandmarksRecApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8978C57E2275ADDA00A43C4B;
+			productRefGroup = 8978C5882275ADDA00A43C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8978C5862275ADDA00A43C4B /* LandmarksRecApp */,
+				8978C59A2275ADDC00A43C4B /* LandmarksRecAppTests */,
+				8978C5A52275ADDC00A43C4B /* LandmarksRecAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8978C5852275ADDA00A43C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8926F163227AB66D00764E9B /* Landmarks.json in Resources */,
+				8978C5952275ADDC00A43C4B /* LaunchScreen.storyboard in Resources */,
+				8978C5922275ADDC00A43C4B /* Assets.xcassets in Resources */,
+				8978C5902275ADDA00A43C4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5992275ADDC00A43C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5A42275ADDC00A43C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25EECC4675CC73D68B7F571A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandmarksRecApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DF0ED015924131EBD457A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandmarksRecApp/Pods-LandmarksRecApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandmarksRecApp/Pods-LandmarksRecApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72BAD92291E9A678CA8AFAA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandmarksRecAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF867AEC4E55B0036F9AED1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandmarksRecAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8978C5832275ADDA00A43C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978C58D2275ADDA00A43C4B /* ViewController.swift in Sources */,
+				8978C58B2275ADDA00A43C4B /* AppDelegate.swift in Sources */,
+				8926F159227A762400764E9B /* MapViewController.swift in Sources */,
+				8926F15F227A940F00764E9B /* LandmarkViews.swift in Sources */,
+				8926F15B227A800F00764E9B /* Landmark.swift in Sources */,
+				8926F167227ED7D300764E9B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5972275ADDC00A43C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978C5A02275ADDC00A43C4B /* LandmarksRecAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978C5A22275ADDC00A43C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978C5AB2275ADDC00A43C4B /* LandmarksRecAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8978C59D2275ADDC00A43C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8978C5862275ADDA00A43C4B /* LandmarksRecApp */;
+			targetProxy = 8978C59C2275ADDC00A43C4B /* PBXContainerItemProxy */;
+		};
+		8978C5A82275ADDC00A43C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8978C5862275ADDA00A43C4B /* LandmarksRecApp */;
+			targetProxy = 8978C5A72275ADDC00A43C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8978C58E2275ADDA00A43C4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8978C58F2275ADDA00A43C4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8978C5932275ADDC00A43C4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8978C5942275ADDC00A43C4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8978C5AD2275ADDC00A43C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8978C5AE2275ADDC00A43C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8978C5B02275ADDC00A43C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9D6C2AC8BE48F97CFFCB13 /* Pods-LandmarksRecApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8978C5B12275ADDC00A43C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6CF24A17BDA6855074607B /* Pods-LandmarksRecApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8978C5B32275ADDC00A43C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC7FED71D155F68D4E20143 /* Pods-LandmarksRecAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandmarksRecApp.app/LandmarksRecApp";
+			};
+			name = Debug;
+		};
+		8978C5B42275ADDC00A43C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEA25CC1198F79245677EFA /* Pods-LandmarksRecAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LandmarksRecApp.app/LandmarksRecApp";
+			};
+			name = Release;
+		};
+		8978C5B62275ADDC00A43C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C041D335BA0F014622A7CE0 /* Pods-LandmarksRecAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandmarksRecApp;
+			};
+			name = Debug;
+		};
+		8978C5B72275ADDC00A43C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CFB1F717C194ACD7AD264A /* Pods-LandmarksRecAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ARQ5TRA58;
+				INFOPLIST_FILE = LandmarksRecAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzq.LandmarksRecAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LandmarksRecApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8978C5822275ADDA00A43C4B /* Build configuration list for PBXProject "LandmarksRecApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978C5AD2275ADDC00A43C4B /* Debug */,
+				8978C5AE2275ADDC00A43C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978C5AF2275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978C5B02275ADDC00A43C4B /* Debug */,
+				8978C5B12275ADDC00A43C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978C5B22275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978C5B32275ADDC00A43C4B /* Debug */,
+				8978C5B42275ADDC00A43C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978C5B52275ADDC00A43C4B /* Build configuration list for PBXNativeTarget "LandmarksRecAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978C5B62275ADDC00A43C4B /* Debug */,
+				8978C5B72275ADDC00A43C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8978C57F2275ADDA00A43C4B /* Project object */;
+}

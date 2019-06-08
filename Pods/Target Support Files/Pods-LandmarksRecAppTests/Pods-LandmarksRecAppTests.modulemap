@@ -1,0 +1,6 @@
+framework module Pods_LandmarksRecAppTests {
+  umbrella header "Pods-LandmarksRecAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
